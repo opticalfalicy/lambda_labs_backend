@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 // ========== MIDDLEWARE ============== //
 
@@ -65,4 +65,4 @@ server.get('/', function(req, res) {
 // server.use('/api/deleteuser', deleteUserRouter);
 // server.use('/api/updateuser', updateUserRouter);
 
-server.listen(PORT, () => console.log('API on port 5000'));
+server.listen(port, () => console.log('API on port 5000...or wherever Heroku is'));
