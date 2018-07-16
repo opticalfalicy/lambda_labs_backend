@@ -1,0 +1,7 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  padding: 4% 2%;
+}
+
+
